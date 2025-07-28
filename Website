@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-inter bg-gray-100 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold">Data Analyst Portfolio</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Projects</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-4">Hi, I'm [Your Name]</h2>
+            <p class="text-xl mb-6">Data Analyst | Turning Data into Insights</p>
+            <a href="#projects" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/3">
+                    <img src="https://via.placeholder.com/300" alt="Profile" class="rounded-full shadow-lg">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-lg mb-4">I'm a passionate data analyst with expertise in Python, R, SQL, and data visualization tools like Tableau and Power BI. I specialize in uncovering actionable insights from complex datasets to drive business decisions.</p>
+                    <p class="text-lg">With a background in [Your Background], I combine technical skills with domain knowledge to deliver impactful data solutions. Explore my projects below to see my work in action!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Customer Segmentation Analysis</h3>
+                    <p class="text-gray-600 mb-4">Used K-means clustering in Python to segment customers based on purchasing behavior, improving targeted marketing strategies.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, Pandas, Scikit-learn</p>
+                    <a href="https://github.com/[YourUsername]/customer-segmentation" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Sales Dashboard in Tableau</h3>
+                    <p class="text-gray-600 mb-4">Developed an interactive Tableau dashboard to visualize sales performance across regions, identifying key growth opportunities.</p>
+                    <p class="text-sm text-gray-500">Tools: Tableau, SQL</p>
+                    <a href="https://github.com/[YourUsername]/sales-dashboard" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Predictive Maintenance Model</h3>
+                    <p class="text-gray-600 mb-4">Built a machine learning model in R to predict equipment failures, reducing downtime by 15%.</p>
+                    <p class="text-sm text-gray-500">Tools: R, Tidyverse, Caret</p>
+                    <a href="https://github.com/[YourUsername]/predictive-maintenance" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Web Scraping for Market Analysis</h3>
+                    <p class="text-gray-600 mb-4">Scraped e-commerce websites using Python to analyze pricing trends and competitor strategies.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, BeautifulSoup, Pandas</p>
+                    <a href="https://github.com/[YourUsername]/web-scraping" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 5 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Churn Prediction Model</h3>
+                    <p class="text-gray-600 mb-4">Developed a logistic regression model to predict customer churn, improving retention strategies.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, Scikit-learn, Matplotlib</p>
+                    <a href="https://github.com/[YourUsername]/churn-prediction" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 6 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Time Series Forecasting</h3>
+                    <p class="text-gray-600 mb-4">Used ARIMA models in Python to forecast sales trends, achieving 90% accuracy.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, Statsmodels, Pandas</p>
+                    <a href="https://github.com/[YourUsername]/time-series" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 7 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Power BI Financial Report</h3>
+                    <p class="text-gray-600 mb-4">Created a comprehensive financial report in Power BI to track KPIs and budget performance.</p>
+                    <p class="text-sm text-gray-500">Tools: Power BI, SQL</p>
+                    <a href="https://github.com/[YourUsername]/financial-report" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 8 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Sentiment Analysis of Reviews</h3>
+                    <p class="text-gray-600 mb-4">Performed sentiment analysis on customer reviews using NLP techniques in Python.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, NLTK, Pandas</p>
+                    <a href="https://github.com/[YourUsername]/sentiment-analysis" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 9 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">SQL Database Optimization</h3>
+                    <p class="text-gray-600 mb-4">Optimized complex SQL queries to improve database performance for a retail application.</p>
+                    <p class="text-sm text-gray-500">Tools: SQL, PostgreSQL</p>
+                    <a href="https://github.com/[YourUsername]/sql-optimization" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 10 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">A/B Testing Analysis</h3>
+                    <p class="text-gray-600 mb-4">Conducted A/B testing analysis to evaluate website design changes, increasing conversion rates by 10%.</p>
+                    <p class="text-sm text-gray-500">Tools: Python, SciPy, Pandas</p>
+                    <a href="https://github.com/[YourUsername]/ab-testing" class="text-blue-600 hover:underline">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <p class="text-lg mb-6">Interested in collaborating or learning more about my work? Reach out to me!</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">Email</a>
+                <a href="https://linkedin.com/in/[YourUsername]" class="text-blue-600 hover:underline">LinkedIn</a>
+                <a href="https://github.com/[YourUsername]" class="text-blue-600 hover:underline">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
